@@ -1,0 +1,14 @@
+name: AutoPlace
+version: '1.0'
+main: org.Pursar.autoPlace.AutoPlace
+api-version: '1.21'
+authors: [ Pursar ]
+
+commands:
+  자동심기:
+    description: AutoPlace 플러그인 명령어
+    permission: autoplace.use
+
+permissions:
+  autoplace.use:
+    default: false
